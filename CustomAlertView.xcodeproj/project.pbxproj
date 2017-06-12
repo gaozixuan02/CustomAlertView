@@ -15,6 +15,7 @@
 		CCC0B2CD1EEE218D0073DAA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCC0B2CB1EEE218D0073DAA5 /* LaunchScreen.storyboard */; };
 		CCC0B2D81EEE21900073DAA5 /* CustomAlertViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC0B2D71EEE21900073DAA5 /* CustomAlertViewTests.m */; };
 		CCC0B2E31EEE21910073DAA5 /* CustomAlertViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC0B2E21EEE21910073DAA5 /* CustomAlertViewUITests.m */; };
+		CCC0B2F21EEE21E00073DAA5 /* CustomAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC0B2F11EEE21E00073DAA5 /* CustomAlert.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		CCC0B2DE1EEE21910073DAA5 /* CustomAlertViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomAlertViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCC0B2E21EEE21910073DAA5 /* CustomAlertViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomAlertViewUITests.m; sourceTree = "<group>"; };
 		CCC0B2E41EEE21910073DAA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCC0B2F01EEE21E00073DAA5 /* CustomAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAlert.h; sourceTree = "<group>"; };
+		CCC0B2F11EEE21E00073DAA5 /* CustomAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAlert.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				CCC0B2C11EEE218B0073DAA5 /* AppDelegate.m */,
 				CCC0B2C31EEE218B0073DAA5 /* ViewController.h */,
 				CCC0B2C41EEE218B0073DAA5 /* ViewController.m */,
+				CCC0B2F01EEE21E00073DAA5 /* CustomAlert.h */,
+				CCC0B2F11EEE21E00073DAA5 /* CustomAlert.m */,
 				CCC0B2C61EEE218C0073DAA5 /* Main.storyboard */,
 				CCC0B2C91EEE218C0073DAA5 /* Assets.xcassets */,
 				CCC0B2CB1EEE218D0073DAA5 /* LaunchScreen.storyboard */,
@@ -279,6 +284,7 @@
 				CCC0B2C51EEE218B0073DAA5 /* ViewController.m in Sources */,
 				CCC0B2C21EEE218B0073DAA5 /* AppDelegate.m in Sources */,
 				CCC0B2BF1EEE218B0073DAA5 /* main.m in Sources */,
+				CCC0B2F21EEE21E00073DAA5 /* CustomAlert.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
